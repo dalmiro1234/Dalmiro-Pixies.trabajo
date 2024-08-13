@@ -1,0 +1,276 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #EBE4DA;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    color: #EBE4DA;
+    background-color: #0B4491;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "Arial", sans-serif; / 
+
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding-top: 0;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+nav{
+    padding: 1px 0;
+}
+
+section{
+    align-content: center;
+    display: flex;
+}
+
+.bienvenida{
+    color: black;
+    background-color: #EBE4DA;
+    justify-content: center;
+}
+
+.imagen1 {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.imagen2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 1399px;
+}
+
+.footer{
+    position: relative;
+    background-color: #0B4491;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    color: #EBE4DA;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+    color: #EBE4DA;
+    padding: 7px;
+}
+
+.icon{
+    color: #EBE4DA;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-elem{
+    list-style: none;
+}
+
+.menu-icon{
+    color: #EBE4DA;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #EBE4DA;
+}
+
+.quienes-somos{
+    text-align: center;
+}
+button{
+    color:#EBE4DA;
+    background-color: #0B4491;
+    padding: 5px 5px;
+    align-items: center;
+
+}
+#nuestros-progrmas .carta {
+    text-align: center;
+}
+
+#nuestros-progrmas .carta p {
+    text-align: center;
+    margin: 0 auto; /
+
+}
+
+#nuestros-progrmas .carta button {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-parrafo{
+    text-align: center;
+
+}
+
+.buzos{
+    text-align: center;
+    margin-bottom:60px ;
+}
+.productos-destacados {
+
+    padding: 20px;
+}
+
+.galeria-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    display: flex;
+    gap: 20px;
+}
+
+.producto-item {
+    text-align: center;
+}
+
+.producto-info {
+    text-align: left;
+    padding: 10px;
+}
+
+.producto-info h3 {
+    margin-bottom: 5px;
+}
+
+.producto-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.talles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px; 
+}
+
+.tabla {
+
+
+    margin: 0; 
+    height: 268px; 
+}
+
+.tabla1{
+    height: auto;
+    width: 400px;
+    margin: 0%;
+}
+.parrafo-talles{
+    margin: auto;
+    text-align:left;
+}.talles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.parrafo-talles {
+    font-size: 1.2em; /* Ajusta el tamaño de la letra según lo necesites */
+    margin-bottom: 20px;
+}
+
+.tabla, .tabla1 {
+    width: 100%; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .parrafo-talles {
+        font-size: 1em; /* Tamaño de letra para dispositivos móviles */
+    }
+
+    .tabla, .tabla1 {
+        width: 100%;
+    }
+}
+
+
+
