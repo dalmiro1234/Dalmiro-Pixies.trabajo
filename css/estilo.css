@@ -428,7 +428,7 @@ button:hover {
 
 #mapa iframe {
     width: 100%;
-    height: 450px;
+    height: 500px;
     border: 0;
 }
 
@@ -491,5 +491,71 @@ button:hover {
 
     .accordion-body {
         padding: 12px;
+    }
+}
+/* Móviles y Pantallas Menores de 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .justify-content-between {
+        justify-content: center;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+
+    .formulario-contacto form {
+        padding: 15px;
+    }
+
+    .imagenes-redes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .red-social {
+        margin: 10px 0;
+    }
+
+    .red-social img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .red-social a {
+        font-size: 14px;
+    }
+}
+
+/* Pantallas Menores de 480px (Smartphones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 5px;
+    }
+
+    .formulario-contacto form {
+        padding: 10px;
+    }
+
+    .red-social img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .red-social a {
+        font-size: 12px;
     }
 }
