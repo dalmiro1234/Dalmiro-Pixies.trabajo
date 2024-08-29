@@ -1,0 +1,61 @@
+
+/* GALERÍA DE PRODUCTOS */
+.producto {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: 300px;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 90px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button {
+    background-color: #0B4491;
+    color: #EBE4DA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0a3b74;
+}
+
+/* TABLA DE TALLES */
+.talles {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.parrafo-talles {
+    font-size: large;
+    margin-bottom: 20px;
+}
+.grid-container-ropa {
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+   gap: 40px;
+   padding: 10px;
+}
+.producto{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius:10px;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}

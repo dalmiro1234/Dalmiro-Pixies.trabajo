@@ -1,0 +1,41 @@
+/*galeria de productos */   
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .product-page {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product-description {
+        margin: 20px 0;
+        font-size: 1.2em;
+    }
+    .options {
+        margin-bottom: 20px;
+    }
+    .product-details {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+    }
+    .reviews {
+        margin-top: 20px;
+    }
+    .main-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+} 

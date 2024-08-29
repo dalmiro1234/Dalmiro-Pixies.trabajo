@@ -1,0 +1,32 @@
+/* FOOTER */
+.container-footer {
+    background-color:#093674;
+}
+.logos-container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-icon, .menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icon a, .menu a {
+    color: #EBE4DA;
+    font-size: 20px;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+}
+footer {
+    background-color: #093674;
+    text-align: center;
+    padding: 10px;
+}
+//footer
