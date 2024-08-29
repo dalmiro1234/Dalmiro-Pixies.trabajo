@@ -4,12 +4,49 @@
 .testimonios {
     padding: 0px;
 }
-
-.testimonios {
-    text-align: center;
-}
 .imagenes-nosotros {
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
+.testimonios {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonios h2 {
+    margin-bottom: 20px;
+  }
+  
+  .imagenes-nosotros {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .testimonios-img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@mixin bordes-redondeados($radio) {
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+  }
+  
+  .caja {
+    @include bordes-redondeados(10px);
+  }
+  

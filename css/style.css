@@ -5,6 +5,7 @@
   margin: 0%;
   padding: 0%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #E8E6E3;
 }
 * a {
   text-decoration: none;
@@ -74,7 +75,6 @@ header {
 }
 
 .social-icon, .menu {
-  list-style: none;
   padding: 0;
   margin: 10px 0;
   display: flex;
@@ -127,8 +127,7 @@ footer {
 }
 
 .envios-gratis {
-  color: #E8E6E3;
-  display: flex;
+  color: #e9e6e2;
 }
 
 /* MAIN */
@@ -198,11 +197,6 @@ button:hover {
   text-align: center;
 }
 
-.parrafo-talles {
-  font-size: large;
-  margin-bottom: 20px;
-}
-
 .grid-container-ropa {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -214,22 +208,22 @@ button:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 10px;
   justify-content: space-between;
   border-radius: 10px;
-}
-
-.producto {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  text-align: center;
 }
 
 .producto img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+}
+
+.remeras-flex {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .conteiner-nosotros {
@@ -240,14 +234,36 @@ button:hover {
   padding: 0px;
 }
 
-.testimonios {
-  text-align: center;
-}
-
 .imagenes-nosotros {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.testimonios {
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonios h2 {
+  margin-bottom: 20px;
+}
+
+.imagenes-nosotros {
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonios-img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.caja {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 /* Formulario de Contacto */
@@ -311,12 +327,6 @@ textarea {
   margin-bottom: 10px;
   height: auto;
   width: 100%;
-}
-
-.testimonios-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
 }
 
 .contacto-container {
@@ -473,7 +483,6 @@ textarea {
     padding: 12px;
   }
 }
-/* Móviles y Pantallas Menores de 768px */
 @media (max-width: 768px) {
   .container {
     padding: 0 10px;
@@ -482,9 +491,6 @@ textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .d-flex {
-    flex-direction: column;
   }
   .justify-content-between {
     justify-content: center;
@@ -496,15 +502,35 @@ textarea {
     padding: 15px;
   }
   .imagenes-redes {
-    flex-direction: column;
+    padding: 100px;
     align-items: center;
   }
   .red-social img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
   .red-social a {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) and (min-width: 768px) {
+  .imagenes-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonios-img {
+    max-width: 200px;
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .imagenes-nosotros {
+    display: block;
+  }
+  .testimonios-img {
+    max-width: 100%;
+    margin: 1px 0;
   }
 }
 

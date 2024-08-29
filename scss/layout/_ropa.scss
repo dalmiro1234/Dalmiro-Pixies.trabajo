@@ -30,13 +30,9 @@ button:hover {
     margin: 0 auto;
     text-align: center;
 }
-.parrafo-talles {
-    font-size: large;
-    margin-bottom: 20px;
-}
 .grid-container-ropa {
     display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
    gap: 40px;
    padding: 10px;
 }
@@ -44,19 +40,18 @@ button:hover {
    display: flex;
    align-items: center;
    flex-direction: column;
+   padding: 10px;
    justify-content: space-between;
    border-radius:10px;
-}
-
-.producto {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    text-align: center;
 }
 .producto img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px; 
 }
+.remeras-flex{
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        object-fit: cover;
+      }
