@@ -22,31 +22,8 @@
     display: block;
     margin: 0 auto;
   }
-  
   .testimonios-img {
     max-width: 100%;
     height: auto;
     margin: 10px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-@mixin bordes-redondeados($radio) {
-    border-radius: $radio;
-    -webkit-border-radius: $radio;
-    -moz-border-radius: $radio;
-  }
-  
-  .caja {
-    @include bordes-redondeados(10px);
-  }
-  
