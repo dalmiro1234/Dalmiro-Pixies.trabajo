@@ -1,6 +1,8 @@
 /* FOOTER */
 .container-footer {
-    background-color:#093674;
+    background-color:rgb(7, 43, 93);
+    text-align: center;
+    padding: 10px;
 }
 .logos-container{
     display: flex;
@@ -23,9 +25,3 @@
 .icon:hover {
     transform: translateY(-5px);
 }
-footer {
-    background-color: #093674;
-    text-align: center;
-    padding: 10px;
-}
-//footer

@@ -1,6 +1,18 @@
-header {
-    background-color: #0B4491;
+.header-container {
+    background-color: #072B5D;
     color: #EBE4DA;
     padding: 10px;
     font-family:sans serif Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
 }
+.pixies{
+    width: 10px;
+    text-align: center;
+}
+.text-light{
+padding: 5px;
+} 
