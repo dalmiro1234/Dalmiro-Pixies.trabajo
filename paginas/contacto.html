@@ -9,64 +9,76 @@
 </head>
 <body>
     <header class="header-container">
-        <div class="container d-flex justify-content-between align-items-center py-3">
-            <h2 class="nombre-empresa">Pixies</h2>
-            <nav>
-                <a class="text-light mx-2" href="../index.html">Inicio</a>
-                <a class="text-light mx-2" href="../paginas/ropa.html">Ropa</a>
-                <a class="text-light mx-2" href="../paginas/nosotros.html">Nosotros</a>
-                <a class="text-light mx-2" href="../paginas/contacto.html">Contacto</a>
-                <a class="text-light mx-2" href="../paginas/F.A.Q.html">F.A.Q</a>
-            </div>
-            </nav> 
-        </div>
-    </header>
+        <img src="../imagenes/logopixies.png" alt="logopixies" class="logo">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a class="menu" href="../index.html">Inicio</a></li>
+            <li><a class="menu" href="../paginas/ropa.html">Ropa</a></li>
+            <li><a class="menu" href="../paginas/nosotros.html">Nosotros</a></li>
+            <li><a class="menu" href="../paginas/contacto.html">Contacto</a></li>
+            <li><a class="menu" href="../paginas/F.A.Q.html">F.A.Q</a></li>
+          </ul>
+        </nav>
+      </header>
     <main>
-        <section class="informacion-contacto">
-            <h2>Información de Contacto</h2>
-            <address>
-                <p>Dirección: San José 1672, Funes, Argentina</p>
-                <p>Teléfono: <a href="tel:+543415467640">+54 3415467640</a></p>
-                <p>Correo Electrónico: <a href="mailto:pixies.sublimados@gmail.com">pixies.sublimados@gmail.com</a></p>
-            </address>  
-        <section class="formulario-contacto">
-            <h2>Envíanos un Mensaje</h2>
-            <form action="/enviar-formulario" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                
-                <button type="submit">Enviar</button>
-            </form>
-        </section>  
-            <section class="mapa">
+        <section class="contacto-contenedor">
+            <div class="informacion-y-formulario">
+              <section class="informacion-contacto">
+                <h2>Información de Contacto</h2>
+                <address>
+                  <p>Dirección: San José 1672, Funes, Argentina</p>
+                  <p>Teléfono: <a href="tel:+543415467640">+54 3415467640</a></p>
+                  <p>Correo Electrónico: <a href="mailto:pixies.sublimados@gmail.com">pixies.sublimados@gmail.com</a></p>
+                </address>
+                <section class="formulario-contacto">
+                  <h2>Envíanos un Mensaje</h2>
+                  <form action="/enviar-formulario" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+          
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+          
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          
+                    <button type="submit">Enviar</button>
+                  </form>
+                </section>
+              </section>
+            </div>
+            <section class="plataformas">
+                <div class="imagenes-redes">
+                  <div class="red-social">
+                     <button class="botones-contacto">
+                         <img src="../imagenes/instagram.png" alt="Instagram">
+                         <a href="https://www.instagram.com/pixies.sublimados/" target="_blank" rel="noopener noreferrer" class="red-social-nombre">Instagram</a>
+                     </button> 
+                  </div>
+                  <div class="red-social">
+                  <button class="botones-contacto">
+                      <img src="../imagenes/social-media.png" alt="TikTok">
+                      <a href="https://www.tiktok.com/@pixies.sublimados" target="_blank" rel="noopener noreferrer" class="red-social-nombre">TikTok</a>
+                  </button>
+                  </div>
+                  <div class="red-social">
+                      <button class="botones-contacto">    
+                          <img src="../imagenes/gmail.png" alt="Gmail">
+                          <a href="mailto:pixies.sublimados@gmail.com" target="_blank" rel="noopener noreferrer" class="red-social-nombre">gmail</a>
+                      </button>
+                  </div>
+                </div>
+            </section>
+          </section>
+          <section class="mapa">
                 <h2>Encuéntranos en el Mapa</h2>
                 <div id="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d497.85753950153673!2d-60.8120570983177!3d-32.92002820101312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfunes%20mall!5e0!3m2!1sen!2sar!4v1724817059721!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
-            <section class="plataformas">
-                <h2 class="redes">Redes Sociales</h2>
-                <ul class="imagenes-redes">
-                    <li class="red-social">
-                        <img src="../imagenes/instagram.png" alt="Instagram">
-                        <a href="https://www.instagram.com/pixies.sublimados/" target="_blank" rel="noopener noreferrer" class="red-social-nombre">Instagram</a>
-                    </li>
-                    <li class="red-social">
-                        <img src="../imagenes/social-media.png" alt="TikTok">
-                        <a href="https://www.tiktok.com/@pixies.sublimados" target="_blank" rel="noopener noreferrer" class="red-social-nombre">TikTok</a>
-                    </li>
-                    <li class="red-social">
-                        <img src="../imagenes/gmail.png" alt="Gmail">
-                        <a href="mailto:pixies.sublimados@gmail.com" target="_blank" rel="noopener noreferrer" class="red-social-nombre">Gmail</a>
-                    </li>
-                </ul>
-            </section>
+
             
     </main>
     <footer class="container-footer">
@@ -93,17 +105,17 @@
                     <a href="#" class="text-light">Inicio</a>
                 </li>
                 <li class="mx-2">
-                    <a href="paginas/ropa.html" class="text-light">ropa</a>
+                    <a href="../paginas/ropa.html" class="text-light">ropa</a>
                 </li>
                 
                 <li class="mx-2">
-                    <a href="paginas/nosotros.html" class="text-light">nosotros</a>
+                    <a href="../paginas/nosotros.html" class="text-light">nosotros</a>
                 </li>
                 <li class="mx-2">
-                    <a href="paginas/contacto.html" class="text-light">contacto</a>
+                    <a href="../paginas/contacto.html" class="text-light">contacto</a>
                 </li>
                 <li class="mx-2">
-                    <a href="paginas/F.A.Q.html" class="text-light">f.a.q</a>
+                    <a href="../paginas/F.A.Q.html" class="text-light">f.a.q</a>
                 </li>
             </ul>
             <p class="text-light">@Pixies | Todos los derechos reservados</p>
