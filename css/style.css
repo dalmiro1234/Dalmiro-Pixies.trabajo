@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* GENERAL */
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -16,7 +15,6 @@ body {
   font-size: 18px;
 }
 
-/*galeria de productos */
 nav a {
   color: white;
   margin: 0 15px;
@@ -105,7 +103,6 @@ nav a .main-image {
   display: none;
 }
 
-/* FOOTER */
 .container-footer {
   background-color: rgb(7, 43, 93);
   text-align: center;
@@ -160,10 +157,6 @@ nav a .main-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.envios-gratis {
-  color: #e9e6e2;
 }
 
 /* MAIN */
@@ -486,6 +479,24 @@ textarea {
   }
   .menu-toggle:checked ~ .navbar .nav-links {
     display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .contacto-contenedor {
+    flex-direction: column;
+  }
+  .informacion-y-formulario,
+  .plataformas {
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 480px) {
+  .red-social img {
+    width: 20px;
+    height: 20px;
+  }
+  #mapa iframe {
+    height: 300px;
   }
 }
 
