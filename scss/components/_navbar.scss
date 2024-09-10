@@ -1,0 +1,42 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #072B5D;
+    color: hsl(35, 30%, 89%);
+    padding: 10px 20px;
+    font-family:sans serif Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+}
+.logo {
+    width: 100px;
+}
+.navbar {
+    display: flex;
+} 
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+}
+  

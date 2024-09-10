@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Buzo Reality</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header-container">
+        <img src="../imagenes/logopixies.png" alt="logopixies" class="logo">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a class="menu" href="../index.html">Inicio</a></li>
+            <li><a class="menu" href="../paginas/ropa.html">Ropa</a></li>
+            <li><a class="menu" href="../paginas/nosotros.html">Nosotros</a></li>
+            <li><a class="menu" href="../paginas/contacto.html">Contacto</a></li>
+            <li><a class="menu" href="../paginas/F.A.Q.html">F.A.Q</a></li>
+          </ul>
+        </nav>
+      </header>
+<main>
+            <div class="product-container">
+                <div class="product-image">
+                    <div class="main-image">
+                        <img class="remeras-flex" src="../imagenes/2.png" alt="Producto">
+                    </div>
+                <div class="product-info">
+                    <h1 class="product-title">Destroy Reality</h1>
+                    <p class="product-price"><span class="original-price">$16.000</span></p>
+                    <p class="product-description">Remera de algodon peinado 24.1 con estampa DTF</p>
+    
+                    <div class="options">
+                        <div class="option">
+                            <label for="size">Talla:</label>
+                            <select id="size">
+                                <option value="s">S</option>
+                                <option value="m">M</option>
+                                <option value="l">L</option>
+                                <option value="xl">XL</option>
+                            </select>
+                        </div>
+    
+                        <div class="option">
+                            <label for="color">Color:</label>
+                            <select id="color">
+                                <option value="blanco">Blanco</option>
+                                <option value="negro">Negro</option>
+                            </select>
+                        </div>
+    
+                        <div class="option">
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" value="1" min="1">
+                        </div>
+                    </div>
+    
+                    <div class="action-buttons">
+                        <button class="btn add-to-cart">Agregar al Carrito</button>
+                        <button class="btn buy-now">Comprar Ahora</button>
+                        <button class="btn wishlist">❤️ Añadir a Favoritos</button>
+                    </div>
+                </div>
+            </div>
+    
+            <section class="product-details">
+                <h2>Detalles del Producto</h2>
+                <p>Remeras de Pixies Sublimados: Calidad y Estilo
+
+                    En Pixies Sublimados, creamos remeras que combinan calidad, comodidad y estilo. Confeccionadas con algodón y modal de alta calidad, nuestras remeras son suaves, duraderas y transpirables. Utilizamos la técnica de sublimación para ofrecer diseños vibrantes y personalizables, asegurando que cada prenda sea única y refleje tu estilo personal.
+                    
+                    Disponibles en diversas tallas y cortes, nuestras remeras ofrecen un ajuste cómodo y favorecedor para todos. Además, estamos comprometidos con la sostenibilidad, trabajando con materiales y procesos respetuosos con el medio ambiente. Perfectas para cualquier ocasión, las remeras de Pixies Sublimados son una elección versátil y consciente.</p>
+            </section>
+    
+            <section class="reviews">
+                <h2>Reseñas</h2>
+                <div class="review-summary">
+                    <p>⭐⭐⭐⭐⭐(5/5)</p>
+                    <p>Basado en 200 reseñas</p>
+                </div> 
+    </section>
+</main>
+<footer class="container-footer">
+    <div class="container text-center">
+        <ul class="logos-container">
+            <li class="mx-2">
+                <a href="mailto:pixies.sublimados@gmail.com" target="_blank" rel="noopener noreferrer" class="text-light">
+                    <ion-icon name="send-outline">nuestro gmail</ion-icon>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="https://www.instagram.com/pixies.sublimados/" target="_blank" rel="noopener noreferrer" class="text text-light">
+                    <ion-icon name="logo-instagram">pagina de instagram</ion-icon>
+                </a>
+            </li>
+            <li class="mx-2">
+                <a href="https://www.tiktok.com/@pixies.sublimados" target="_blank" rel="noopener noreferrer" class="text-light">
+                    <ion-icon name="logo-tiktok">pagina de tik tok</ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex justify-content-center mb-4">
+            <li class="mx-2">
+                <a href="#" class="text-light">Inicio</a>
+            </li>
+            <li class="mx-2">
+                <a href="../paginas/ropa.html" class="text-light">ropa</a>
+            </li>
+            
+            <li class="mx-2">
+                <a href="../paginas/nosotros.html" class="text-light">nosotros</a>
+            </li>
+            <li class="mx-2">
+                <a href="../paginas/contacto.html" class="text-light">contacto</a>
+            </li>
+            <li class="mx-2">
+                <a href="../paginas/F.A.Q.html" class="text-light">f.a.q</a>
+            </li>
+        </ul>
+        <p class="text-light">@Pixies | Todos los derechos reservados</p>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

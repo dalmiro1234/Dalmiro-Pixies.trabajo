@@ -1,0 +1,52 @@
+
+main {
+    padding: 30px;
+}
+
+.informacion-y-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.informacion-contacto, .formulario-contacto {
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   max-width: auto; 
+   max-height: auto;
+}
+
+.plataformas {
+    margin-top: 20px;
+}
+
+.imagenes-redes {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.red-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.red-social img {
+    width: 100px; 
+    height: 100px;
+}
+#mapa iframe {
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+

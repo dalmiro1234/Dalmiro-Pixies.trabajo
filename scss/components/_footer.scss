@@ -1,0 +1,23 @@
+/* FOOTER */
+.container-footer {
+    background-color:rgb(7, 43, 93);
+    text-align: center;
+    padding: 10px;
+}
+.logos-container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-icon, .menu {
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icon a, .menu a {
+    color: hsl(35, 30%, 89%);
+    font-size: 20px;
+}

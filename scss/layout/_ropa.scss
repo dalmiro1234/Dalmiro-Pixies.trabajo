@@ -1,0 +1,42 @@
+
+button {
+    background-color: #0B4491;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.talles {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-container-ropa {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 40px;
+    padding: 10px;
+}
+.producto{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   justify-content: space-between;
+   border-radius:10px;
+}
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+.remeras-flex{
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        object-fit: cover;
+}
+.producto{
+@include producto;
+}

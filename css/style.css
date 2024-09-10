@@ -1,0 +1,439 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #082F5D;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+}
+
+/*galeria de productos */
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+nav a nav a:hover {
+  text-decoration: underline;
+}
+nav a .product-page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav a .product-description {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+nav a .options {
+  margin-bottom: 20px;
+}
+nav a .product-details {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+nav a .reviews {
+  margin-top: 20px;
+}
+nav a .main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #072B5D;
+  color: hsl(35, 30%, 89%);
+  padding: 10px 20px;
+  font-family: sans serif Verdana, Geneva, Tahoma, sans-serif;
+  position: sticky;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* FOOTER */
+.container-footer {
+  background-color: rgb(7, 43, 93);
+  text-align: center;
+  padding: 10px;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-icon, .menu {
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon a, .menu a {
+  color: hsl(35, 30%, 89%);
+  font-size: 20px;
+}
+
+.producto button {
+  background-color: #06264A;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 2px;
+  transition: 0.3s;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+.producto button button {
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  background-color: #082F5D;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.bienvenida {
+  padding: 20px;
+}
+
+button {
+  background-color: #0B4491;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.talles {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-container-ropa {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 10px;
+}
+
+.producto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.remeras-flex {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.producto {
+  max-width: 100%;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.conteiner-nosotros {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.testimonios {
+  padding: 0px;
+}
+
+.imagenes-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonios {
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonios h2 {
+  margin-bottom: 20px;
+}
+
+.imagenes-nosotros {
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonios-img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.contactar {
+  background-color: rgb(7, 3, 3);
+  margin: 60px;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  padding: 30px;
+}
+
+.informacion-y-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.informacion-contacto, .formulario-contacto {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: auto;
+  max-height: auto;
+}
+
+.plataformas {
+  margin-top: 20px;
+}
+
+.imagenes-redes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.red-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.red-social img {
+  width: 100px;
+  height: 100px;
+}
+
+#mapa iframe {
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.faq-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .producto {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .producto {
+    flex: 1 1 100%;
+  }
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .producto-item {
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .justify-content-between {
+    justify-content: center;
+  }
+  .nav {
+    margin-top: 10px;
+  }
+  .formulario-contacto form {
+    padding: 15px;
+  }
+  .imagenes-redes {
+    padding: 100px;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) and (min-width: 768px) {
+  .imagenes-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonios-img {
+    max-width: 200px;
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .imagenes-nosotros {
+    display: block;
+  }
+  .testimonios-img {
+    max-width: 100%;
+    margin: 1px 0;
+  }
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+    color: #06224A;
+  }
+  .nav-links li {
+    margin: 15px 0;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .menu-toggle:checked ~ .navbar .nav-links {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .informacion-y-formulario {
+    flex-direction: column;
+  }
+  .plataformas {
+    text-align: center;
+  }
+  .imagenes-redes {
+    flex-direction: initial;
+    align-items: center;
+  }
+  .red-social {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

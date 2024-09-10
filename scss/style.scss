@@ -1,0 +1,17 @@
+//base
+@import 'base/reset';
+@import 'base/vars';
+//componentes
+@import 'components/galeria';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/card';
+@import 'components/carrusoel';
+@import 'components/mixin';
+//layout
+@import 'layout/index';
+@import 'layout/ropa';
+@import 'layout/nosotros';
+@import 'layout/contacto';
+@import 'layout/f.a.q.scss';
+@import 'layout/mediaqueries';
