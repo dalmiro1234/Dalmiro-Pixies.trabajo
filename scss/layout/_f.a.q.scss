@@ -1,18 +1,24 @@
 .faq-section {
     text-align: left; 
     padding: 20px; 
+    
 }
 .faq-container {
     display: flex;
     flex-direction: column;
     align-items:left;
+    
+    
 }
 .faq-item {
     margin-bottom: 30px;
+    
 }
 .faq-item h3 {
     margin: 0;
+
 }
 .faq-item p {
-    margin: 0; 
+    margin: 10px; 
+
 }
